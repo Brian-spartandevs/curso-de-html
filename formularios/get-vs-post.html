@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>get vs post</title>
+</head>
+<!-- Los dos métodos son distintos el método GET añade los datos codificados a la URL y nos es seguro colocar este metodo cuando hacemos un formulario que tenga datos personales del usuario, el metodo get se usa para barras de navegacion-->
+<body>
+    <form action="#" method="get">
+        <label for="name">Nombre</label>
+        <input type="text" id="name">
+        <label for="surname">Apellido</label>
+        <input type="text" id="surname">
+        <input type="submit">
+        
+    </form>
+<!-- En el caso del método POST los datos se añaden al cuerpo y no a la URL, el metodo post se utiliza mas para enviar datos personales el usuario -->
+    <form action="#" method="post">
+        <label for="name">Nombre</label>
+        <input type="text" id="name">
+        <label for="surname">Apellido</label>
+        <input type="text" id="surname">
+        <input type="submit">
+        
+    </form>
+</body>
+</html>
